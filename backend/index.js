@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 
 // Database Connection with MongoDB
-mongoose.connect("mongodb+srv://ecommerce:ecommerce1@cluster0.sozrn.mongodb.net/ecommerce", {
+mongoose.connect("", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
